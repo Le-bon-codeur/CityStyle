@@ -1,0 +1,29 @@
+.city-blue-color {
+  color: #39499c;
+}
+.city-green-color {
+  color: #b1d63b;
+}
+.city-red-color {
+  color: #9c3949;
+}
+.success-color {
+  color: #00cc00;
+}
+.error-color {
+  color: #c12e2a;
+}
+.background-color {
+  color: #fdfdfd;
+}
+.border-color {
+  color: #ccc;
+}
+.btn-success-color {
+  background: #00cc00 !important;
+  color: #fdfdfd !important;
+}
+.btn-error-color {
+  background: #c12e2a !important;
+  color: #fdfdfd !important;
+}
