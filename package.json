@@ -1,6 +1,6 @@
 {
   "name": "city_style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "colors used at citypassenger",
   "main": "index.css",
   "scripts": {
