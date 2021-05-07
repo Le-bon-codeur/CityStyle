@@ -1,6 +1,6 @@
 {
-  "name": "citypassenger-colors",
-  "version": "1.0.4",
+  "name": "city_style",
+  "version": "1.0.0",
   "description": "colors used at citypassenger",
   "main": "index.css",
   "scripts": {
@@ -10,6 +10,6 @@
     "type": "git",
     "url": "https://github.com/Groupe-Citypassenger-Inc/CityStyle.git"
   },
-  "author": "timothe-caillaud",
+  "author": "Citypassenger - Mike Lee",
   "license": "ISC"
 }
