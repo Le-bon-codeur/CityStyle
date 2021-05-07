@@ -9,7 +9,6 @@ on:
 
 
 jobs:
-        
   minify-and-publish-npm:
     runs-on: ubuntu-20.04
     steps:
