@@ -18,7 +18,13 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
-          registry-url: 'https://registry.npmjs.org'      
+          registry-url: 'https://registry.npmjs.org'   
+      - name: Minify dep
+        run: npm i minify
+      - name: sponge dep
+        run: npm i sponge
+      - name: minify css
+        run: ./node_modules/.bin/minify index.css | ./node_modules/.bin/sponge index.css
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTO_TOKEN}}
