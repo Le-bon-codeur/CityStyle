@@ -1,30 +1,13 @@
-.city-blue-color {
-  color: #39499c;
+:root{
+  --city-blue-color: #39499c;
+  --city-green-color: #b1d63b;
+  --city-red-color: #9c3949;
+  --success-color: #00cc00;
+  --error-color: #c12e2a;
+  --background-color: #fdfdfd;
+  --border-color: #ccc;
 }
-
-.city-green-color {
-  color: #b1d63b;
-}
-
-.city-red-color {
-  color: #9c3949;
-}
-
-.success-color {
-  color: #00cc00;
-}
-
-.error-color {
-  color: #c12e2a;
-}
-
-.background-color {
-  color: #fdfdfd;
-}
-
-.border-color {
-  color: #ccc;
-}
+/*root usage =>  color: var(--city-blue-color)*/
 
 .btn-success-color {
   background: #00cc00 !important;
